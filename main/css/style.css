@@ -1,16 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
 body {
-  font-family: 'Open Sans', sans-serif;
+    background-color: #fff;
+    color: rgb(51, 51, 51);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+a:link,
+a:visited {
+    color: #ffffff;
+    text-decoration: none;
 }
 
 /*Header css*/
-#header .headerTop {
+.headerTop {
   background-color: #081845;
   color: white;
-  font-family: inherit;
-  word-break: keep-all;
+  padding-top: 15px;
 }
 
-.login {
+.icon {
   display: inline-block;
-  font-family: inherit;
+  color: #ffffff;
+}
+
+.icon-text {
+  display: inline-block;
+  padding-left: 2px;
+  color: #ffffff;
+}
+
+.icon-text a {
+  color: #ffffff;
 }
